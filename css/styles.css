@@ -206,9 +206,6 @@ button:focus,
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
-  h1 {
-    font-size: 22px;
-  }
 }
 @keyframes color-change {
   0% {
