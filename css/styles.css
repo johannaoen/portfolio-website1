@@ -60,7 +60,7 @@ a:active {
   padding: 10px;
   border-radius: 3px;
   transition: 0.2s opacity;
-  border-bottom: 2px solid rgba(0,0,0,0.3);
+  border-bottom: 2px solid rgba (0,0,0,0.3);
   background-color: var(--primary-color);
 }
 
@@ -73,7 +73,7 @@ a:active {
   padding: 10px;
   border-radius: 3px;
   transition: 0.2s opacity;
-  border-bottom: 2px solid rgba(0,0,0,0.3);  background-color: var(--primary-color);
+  border-bottom: 2px solid rgba (0,0,0,0.3);  background-color: var(--primary-color);
 }
 .button_secondary {
   border:none;
@@ -84,7 +84,7 @@ a:active {
   padding: 10px;
   border-radius: 3px;
   transition: 0.2s opacity;
-  border-bottom: 2px solid rgba(0,0,0,0.3);
+  border-bottom: 2px solid rgba (0,0,0,0.3);
    background-color: var(--secondary-color);
   color: var(--dark-grey);
 }
