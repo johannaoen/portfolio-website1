@@ -117,6 +117,10 @@ button:focus,
   border-radius: 50%;
 }
 
+.skills {
+  text-align: center;
+}
+
 .hometown {
   margin: 0 auto;
   border-radius: 50%;
@@ -162,6 +166,12 @@ button:focus,
   display: inline-block;
   margin-left: 15px;
 }
+
+ul {
+  list-style-type: none;
+
+}
+
 .hobbies {
   list-style-type: none;
 }
