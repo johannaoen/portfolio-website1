@@ -121,11 +121,6 @@ button:focus,
   text-align: center;
 }
 
-.hometown {
-  margin: 0 auto;
-  border-radius: 50%;
-}
-
 .profile {
   max-width: 700px;
   margin: 0 auto;
@@ -167,12 +162,8 @@ button:focus,
   margin-left: 15px;
 }
 
+
 ul {
-  list-style-type: none;
-
-}
-
-.hobbies {
   list-style-type: none;
 }
 
@@ -185,7 +176,12 @@ ul {
 
 .grid__item {
   background-color: lightgrey;
+ 
   padding: 15px
+}
+
+.grid__item:hover {
+background-color: #9a9898;
 }
 
 .grid__item:last-child {
@@ -236,35 +232,34 @@ ul {
     fill: #f76414;
   }
 }
-.sun {
-  animation-duration: 4s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
+
+.info {
+  text-align: left;
+  display: flexbox;
+  margin-left: 40px;
+  line-height: 2;
 }
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-  to {
-    transform: translate(200px, 50px);
-  }
+
+.form {
+  text-align: left;
+  display: flexbox;
 }
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  transition: width 0.4s ease-in-out;
 }
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(450px, 48px);
-  }
-  to {
-    transform: translate(100px, 48px);
-  }
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  transition: width 0.4s ease-in-out;
 }
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
-}
-a {
-  color: #357b70;
+
+input[type=text]:focus{
+  border: 3px solid #555;
 }
